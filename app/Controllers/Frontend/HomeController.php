@@ -5,6 +5,8 @@ namespace App\Controllers\Frontend;
 use App\Models\ClientModel;
 use App\Models\ConfigModel;
 use App\Models\ConfigMenuModel;
+use App\Models\SliderEvent;
+use App\Models\SliderText;
 
 class HomeController extends BaseController
 {
@@ -39,6 +41,13 @@ class HomeController extends BaseController
         // config menu
         $config_menu = new ConfigMenuModel();
         $data['config_menu'] = $config_menu->where('client_id', $client_id)->where('status', 1)->get()->getFirstRow();
+        // slider event
+        $slider_event = new SliderEvent();
+        $data['slider_events'] = $slider_event->where('client_id', $client_id)->where('status', 1)->get()->getResult();
+        // slider text
+        $slider_text = new SliderText();
+        $data['slider_texts'] = $slider_text->where('client_id', $client_id)->where('status', 1)->get()->getResult();
+
 
         return view('frontend/home/index', $data);
     }

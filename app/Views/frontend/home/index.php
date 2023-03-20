@@ -12,16 +12,16 @@
         <div id="home" class="slider-container rev_slider_wrapper" style="height: 650px;">
             <div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 650, 'disableProgressBar': 'on', 'navigation': {'bullets': {'enable': true, 'direction': 'vertical', 'h_align': 'right', 'v_align': 'center', 'space': 5}, 'arrows': {'enable': false}}}">
                 <ul>
-                    <?php foreach ($home as $key => $value) { ?>
+                    <?php foreach ($slider_events as $key => $value) { ?>
                         <li data-transition="fade">
-                            <img src="{{asset('assets/images')}}/{{$value->photo}}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+                            <img src="<?= base_url('assets/images/slider_event/' . $value->image) ?>" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
 
-                            <a href="{{route('promotion', $value->id)}}">
-                                <div class="tp-caption main-label" data-x="left" data-hoffset="25" data-y="center" data-voffset="-5" data-start="1500" data-whitespace="nowrap" data-transform_in="y:[100%];s:500;" data-transform_out="opacity:0;s:500;" style="z-index: 5; font-size: 1.5em; text-transform: uppercase;" data-mask_in="x:0px;y:0px;">{{$value->text_content}}</div>
+                            <a href="<?= base_url('promotion/' . $value->id) ?>">
+                                <div class="tp-caption main-label" data-x="left" data-hoffset="25" data-y="center" data-voffset="-5" data-start="1500" data-whitespace="nowrap" data-transform_in="y:[100%];s:500;" data-transform_out="opacity:0;s:500;" style="z-index: 5; font-size: 1.5em; text-transform: uppercase;" data-mask_in="x:0px;y:0px;"><?= $value->title ?></div>
 
-                                <div class="tp-caption main-label" data-x="left" data-hoffset="25" data-y="center" data-voffset="-55" data-start="500" style="z-index: 5; text-transform: uppercase; font-size: 52px;" data-transform_in="y:[-300%];opacity:0;s:500;">{{$value->text_header}}</div>
+                                <div class="tp-caption main-label" data-x="left" data-hoffset="25" data-y="center" data-voffset="-55" data-start="500" style="z-index: 5; text-transform: uppercase; font-size: 52px;" data-transform_in="y:[-300%];opacity:0;s:500;"><?= $value->content ?></div>
 
-                                <div class="tp-caption bottom-label" data-x="left" data-hoffset="25" data-y="center" data-voffset="40" data-start="2000" style="z-index: 5; border-bottom: 1px solid #fff; padding-bottom: 3px;" data-transform_in="y:[100%];opacity:0;s:500;" style="font-size: 1.2em;">{{$value->text_footer}}</div>
+                                <div class="tp-caption bottom-label" data-x="left" data-hoffset="25" data-y="center" data-voffset="40" data-start="2000" style="z-index: 5; border-bottom: 1px solid #fff; padding-bottom: 3px;" data-transform_in="y:[100%];opacity:0;s:500;" style="font-size: 1.2em;"><?= $value->subtitle ?></div>
                             </a>
                         </li>
                     <?php } ?>
@@ -301,8 +301,8 @@
                                     $no++; ?>
                                     <div class="process-step col-md-6 col-lg-3 mb-5 mb-md-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="{{$delay}}" style="animation-delay: 200ms;">
                                         <!-- <div class="process-step-circle">
-                                                <strong class="process-step-circle-content">{{$no}}</strong>
-                                            </div> -->
+                                    <strong class="process-step-circle-content">{{$no}}</strong>
+                                </div> -->
                                         <div class="process-step-content">
                                             <p class="mb-0">{{$value->notes}}</p>
                                         </div>
@@ -571,6 +571,7 @@
                 </div>
             </div>
         </div>
+
         <!-- scripts -->
         <?= $this->include('frontend/components/scripts') ?>
 </body>
