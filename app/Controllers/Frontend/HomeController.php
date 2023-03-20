@@ -13,6 +13,7 @@ class HomeController extends BaseController
         // client
         $client_model = new ClientModel();
         $client = $client_model->where("domain_live_url", base_url())->where('status', 1)->get()->getFirstRow();
+        // define trial or prod
         if ($client->is_production == 1) {
             $is_production = 1;
             $client_id = $client->id;
@@ -30,6 +31,8 @@ class HomeController extends BaseController
                 return redirect()->to(base_url('/'));
             }
         }
+        $data['trial_name'] = $trial_name;
+        $data['is_production'] = $is_production;          
         // config
         $config = new ConfigModel();
         $data['config'] = $config->where('client_id', $client_id)->where('status', 1)->get()->getFirstRow();
