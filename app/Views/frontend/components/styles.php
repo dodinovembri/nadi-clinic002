@@ -2,15 +2,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title><?= $config->name ?></title>
-
-        <meta name="keywords" content="HTML5 Template" />
+        <meta name="keywords" content="<?= $config->keyword ?>" />
         <meta name="description" content="<?= $config->description ?>">
         <meta name="author" content="<?= $config->author ?>">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="<?= base_url('assets/images/logo/'. $config->image_logo) ?>" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="<?= base_url('assets/images/logo/'. $config->image_logo) ?>">
+        <link rel="shortcut icon" href="<?= base_url('assets/images/logo/' . $config->image_logo) ?>" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="<?= base_url('assets/images/logo/' . $config->image_logo) ?>">
 
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">

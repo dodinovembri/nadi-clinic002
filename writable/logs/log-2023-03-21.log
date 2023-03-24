@@ -1,0 +1,326 @@
+CRITICAL - 2023-03-21 08:18:11 --> Undefined variable $jamkerja
+in APPPATH\Views\frontend\home\index.php on line 55.
+ 1 APPPATH\Views\frontend\home\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jamkerja', 'APPPATH\\Views\\frontend\\home\\index.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 08:31:02 --> Undefined variable $home
+in APPPATH\Views\frontend\home\index.php on line 18.
+ 1 APPPATH\Views\frontend\home\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $home', 'APPPATH\\Views\\frontend\\home\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 08:55:45 --> Undefined variable $home
+in APPPATH\Views\frontend\home\index.php on line 18.
+ 1 APPPATH\Views\frontend\home\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $home', 'APPPATH\\Views\\frontend\\home\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:11:22 --> Undefined variable $slider_event
+in APPPATH\Views\frontend\home\index.php on line 21.
+ 1 APPPATH\Views\frontend\home\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider_event', 'APPPATH\\Views\\frontend\\home\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:15:29 --> Undefined variable $slider_event
+in APPPATH\Views\frontend\home\index.php on line 21.
+ 1 APPPATH\Views\frontend\home\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider_event', 'APPPATH\\Views\\frontend\\home\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:15:32 --> Undefined variable $slider_event
+in APPPATH\Views\frontend\home\index.php on line 21.
+ 1 APPPATH\Views\frontend\home\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider_event', 'APPPATH\\Views\\frontend\\home\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:17:41 --> Undefined variable $jamkerja
+in APPPATH\Views\frontend\home\index.php on line 61.
+ 1 APPPATH\Views\frontend\home\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jamkerja', 'APPPATH\\Views\\frontend\\home\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:17:52 --> Undefined variable $jamkerja
+in APPPATH\Views\frontend\home\index.php on line 61.
+ 1 APPPATH\Views\frontend\home\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jamkerja', 'APPPATH\\Views\\frontend\\home\\index.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:17:59 --> Undefined variable $misi
+in APPPATH\Views\frontend\home\index.php on line 93.
+ 1 APPPATH\Views\frontend\home\index.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $misi', 'APPPATH\\Views\\frontend\\home\\index.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:18:20 --> Undefined variable $misi
+in APPPATH\Views\frontend\home\index.php on line 98.
+ 1 APPPATH\Views\frontend\home\index.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $misi', 'APPPATH\\Views\\frontend\\home\\index.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-21 10:34:10 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nadi_clinic002', 3306, '', 0)
+#1 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp8-2-0\htdocs\nadi-clinic002\app\Controllers\Frontend\HomeController.php(17): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp8-2-0\htdocs\nadi-clinic002\system\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+#7 C:\xampp8-2-0\htdocs\nadi-clinic002\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+#8 C:\xampp8-2-0\htdocs\nadi-clinic002\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp8-2-0\htdocs\nadi-clinic002\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp8-2-0\\h...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp8-2-0\htdocs\nadi-clinic002\app\Controllers\Frontend\HomeController.php(17): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp8-2-0\htdocs\nadi-clinic002\system\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+#6 C:\xampp8-2-0\htdocs\nadi-clinic002\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+#7 C:\xampp8-2-0\htdocs\nadi-clinic002\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8-2-0\htdocs\nadi-clinic002\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp8-2-0\\h...')
+#10 {main}
+CRITICAL - 2023-03-21 10:34:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `clinic002_client`
+WHERE `domain_live_url` = :domain_live_url:
+AND `status` = :status:', [...], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Frontend\HomeController.php(17): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:34:27 --> Undefined variable $layanan
+in APPPATH\Views\frontend\home\index.php on line 128.
+ 1 APPPATH\Views\frontend\home\index.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $layanan', 'APPPATH\\Views\\frontend\\home\\index.php', 128)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:35:13 --> Undefined variable $dokter
+in APPPATH\Views\frontend\home\index.php on line 168.
+ 1 APPPATH\Views\frontend\home\index.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dokter', 'APPPATH\\Views\\frontend\\home\\index.php', 168)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:35:30 --> Undefined variable $tindakan
+in APPPATH\Views\frontend\home\index.php on line 207.
+ 1 APPPATH\Views\frontend\home\index.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tindakan', 'APPPATH\\Views\\frontend\\home\\index.php', 207)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:35:42 --> Undefined variable $notes_biaya
+in APPPATH\Views\frontend\home\index.php on line 237.
+ 1 APPPATH\Views\frontend\home\index.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $notes_biaya', 'APPPATH\\Views\\frontend\\home\\index.php', 237)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:35:56 --> Undefined variable $kelas
+in APPPATH\Views\frontend\home\index.php on line 266.
+ 1 APPPATH\Views\frontend\home\index.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'APPPATH\\Views\\frontend\\home\\index.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:36:13 --> Undefined variable $kelas
+in APPPATH\Views\frontend\home\index.php on line 266.
+ 1 APPPATH\Views\frontend\home\index.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'APPPATH\\Views\\frontend\\home\\index.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:36:33 --> Undefined variable $notes_kamar
+in APPPATH\Views\frontend\home\index.php on line 301.
+ 1 APPPATH\Views\frontend\home\index.php(301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $notes_kamar', 'APPPATH\\Views\\frontend\\home\\index.php', 301)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:37:16 --> Undefined variable $comment
+in APPPATH\Views\frontend\home\index.php on line 382.
+ 1 APPPATH\Views\frontend\home\index.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $comment', 'APPPATH\\Views\\frontend\\home\\index.php', 382)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:37:29 --> Undefined variable $jadwal_dokter_anak
+in APPPATH\Views\frontend\home\index.php on line 468.
+ 1 APPPATH\Views\frontend\home\index.php(468): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jadwal_dokter_anak', 'APPPATH\\Views\\frontend\\home\\index.php', 468)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-21 10:37:50 --> Undefined variable $jadwal_dokter_kandungan
+in APPPATH\Views\frontend\home\index.php on line 492.
+ 1 APPPATH\Views\frontend\home\index.php(492): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jadwal_dokter_kandungan', 'APPPATH\\Views\\frontend\\home\\index.php', 492)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\frontend\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/home/index', [], true)
+ 5 APPPATH\Controllers\Frontend\HomeController.php(52): view('frontend/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-21 21:35:05 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'nadi_clinic002' in C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nadi_clinic002', 3306, '', 0)
+#1 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp8-2-0\htdocs\nadi-clinic002\app\Controllers\Frontend\HomeController.php(17): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp8-2-0\htdocs\nadi-clinic002\system\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+#7 C:\xampp8-2-0\htdocs\nadi-clinic002\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+#8 C:\xampp8-2-0\htdocs\nadi-clinic002\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp8-2-0\htdocs\nadi-clinic002\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp8-2-0\\h...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'nadi_clinic002' in C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp8-2-0\htdocs\nadi-clinic002\app\Controllers\Frontend\HomeController.php(17): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp8-2-0\htdocs\nadi-clinic002\system\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+#6 C:\xampp8-2-0\htdocs\nadi-clinic002\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+#7 C:\xampp8-2-0\htdocs\nadi-clinic002\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8-2-0\htdocs\nadi-clinic002\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp8-2-0\htdocs\nadi-clinic002\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp8-2-0\\h...')
+#10 {main}
+CRITICAL - 2023-03-21 21:35:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'nadi_clinic002'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `clinic002_client`
+WHERE `domain_live_url` = :domain_live_url:
+AND `status` = :status:', [...], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Frontend\HomeController.php(17): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Frontend\HomeController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

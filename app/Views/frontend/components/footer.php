@@ -4,29 +4,33 @@
             <div class="col-md-4 col-lg-3 mb-2">
                 <h4 class="mb-4">Location</h4>
                 <p>
-                    {{$location->company_name}}<br>
-                    {{$location->location}}<br>
-                    {{$location->email}}
+                    Porto Medical<br>
+                    123 Porto Blvd, Suite 100<br>
+                    New York, NY<br>
+                    Phone : 123-456-7890
                 </p>
             </div>
             <div class="col-md-4 col-lg-3">
                 <h4 class="mb-4">Opening Hours</h4>
-                <?php foreach ($jamkerja as $key => $value) { ?>
-                    <div class="info custom-info">
-                        <span>{{ $value->ket_jam_kerja }}</span>
-                        <span>{{ $value->jumlah_jam }}</span>
-                    </div>
-                <?php } ?>
+                <div class="info custom-info">
+                    <span>Mon-Fri</span>
+                    <span>8:30 am to 5:00 pm</span>
+                </div>
+                <div class="info custom-info">
+                    <span>Saturday</span>
+                    <span>9:30 am to 1:00 pm</span>
+                </div>
+                <div class="info custom-info">
+                    <span>Sunday</span>
+                    <span>Closed</span>
+                </div>
             </div>
             <div class="col-md-4 col-lg-3">
                 <div class="contact-details">
                     <h4 class="mb-4">Emergency Cases</h4>
-                    <ul>
-                        <?php foreach ($emergency as $key => $value) { ?>
-                            <li>{{$value->emergency_number}}</li>
-                        <?php } ?>
-                    </ul>
-
+                    <a class="text-decoration-none" href="tel:1234567890">
+                        <strong class="font-weight-light">(800)123-4567</strong>
+                    </a>
                 </div>
             </div>
             <div class="col-lg-2 text-md-center text-lg-left ml-lg-auto">
@@ -55,7 +59,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center m-0">
-                    <p>© Copyright RSIA HERAWATY 2020. All Rights Reserved.</p>
+                    <p>© Copyright 2019. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
